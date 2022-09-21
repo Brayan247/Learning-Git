@@ -1,10 +1,19 @@
 init = Iniciar un repositorio
-add /file = agregar archivos 
+add /file = agregar archivos
+add . = agregar todos los archivos 
 status = ver los archivos agregados
     Cuando hayamos echo el commit los archivos a los que les hicimos el commit ya no apareceran
 commit = iniciar un comit
+commit -m "message" = Hacer un commit mas facil
     :qa! = Cancelar el commit
     :wq = Hacer el commit
 log = ver los commits que hemos realizado
 checkout -- /file = Revertir las modificaciones
 diff /file = ver las modificaciones que fueron realizadas
+
+branch = ver la rama en la que estamos
+branch /name = crear una nueva rama
+checkout /name-new-brach = cambiar de rama
+
+remote add origin www = Asignar un repositorio de git al proyecto en general
+push -u origin /name-branch = subir una rama al repositorio
