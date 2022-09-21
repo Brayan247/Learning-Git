@@ -1,0 +1,10 @@
+init = Iniciar un repositorio
+add /file = agregar archivos 
+status = ver los archivos agregados
+    Cuando hayamos echo el commit los archivos a los que les hicimos el commit ya no apareceran
+commit = iniciar un comit
+    :qa! = Cancelar el commit
+    :wq = Hacer el commit
+log = ver los commits que hemos realizado
+checkout -- /file = Revertir las modificaciones
+diff /file = ver las modificaciones que fueron realizadas
